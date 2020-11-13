@@ -1,0 +1,293 @@
+@import "./config" ;
+
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Carter+One&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Black+Ops+One&family=Bowlby+One+SC&family=Carter+One&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
+
+.section-1 {
+    height:310vh;
+    width:vw;
+}
+
+.main1 {
+    overflow: hidden;
+    width:vw;
+    background-color:$white;
+    .nav   {
+        display:flex;
+        position:absolute;
+        right:5%;
+        top:50px;
+        min-width:20%;
+    }
+
+    .nav li a {
+        color:$white;
+        text-decoration:none;
+        font-size:20px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        margin-right:40px;
+    }
+
+   .main-micro {
+       font-size:82.65;
+       margin-left:10%;
+       margin-top:20px;
+       float:left;
+       margin-right:1.5%;
+   } 
+
+   .main1-banner {
+    font-size:50px;
+       position: absolute;
+       right:0;
+        width:50%;
+   }
+
+   .Marketing {
+       color:#484848;
+       font-weight: bold;
+       font-size:40px;
+       margin-top:70px;
+       font-family: 'Quicksand', sans-serif;
+   }
+
+   .phone-svg {
+       position: absolute;
+       right:12.33%;
+       top:13.69%;
+       width:32.3792%;
+   }
+   
+   .media-txt {
+    margin-left:10%;
+    clear:both;
+    font-size:50px;
+    height:50px;
+    color:#42495B;
+    font-family: 'Quicksand', sans-serif;
+   }
+
+   .icon-social {
+        display:flex;
+        margin-top:200px;
+   }
+   .soc-icons {
+       position:fixed;
+       height:200px;
+       margin-right:6%;
+       display:flex;
+       flex-direction: column-reverse;
+       margin-left:2.5%;
+       justify-content: space-between;
+
+   }
+   .fab {
+       font-size:30px;
+       color:$blue;
+   }
+
+   .fab:hover {
+       cursor: pointer;
+        color:blue;
+   }
+
+   .for-busines {
+        font-size:74px;
+        font-weight: bold;
+        margin-left:10%;
+        color:#42495B;
+        font-family: 'Quicksand', sans-serif;
+   }
+
+   .p-perfomance {
+       font-size:16px;
+       font-weight:light; 
+       line-height: 25px;
+   }
+
+   .main1-button {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,52,163,1) 0%, rgba(0,212,255,1) 100%);
+    width:216px;
+       height:49px;
+       color:$white;
+       border-radius:25px;
+       outline:none;
+       font-size:16px;
+       font-family: 'Quicksand', sans-serif;
+       box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.23);
+       border:none;
+       font-weight: bold;
+       &:hover {
+           cursor:pointer;
+       }
+   }
+
+}
+
+.main-2 {
+    width:vh;
+    background-color:$white;
+    display:flex;
+    
+    
+    .main-2-svg {
+        margin-left:7%;
+        margin-top:21.35%;
+        width:28.85%;
+        
+        
+    }
+
+    .main-2-text {
+        margin-top:23.23%;
+        width:30.76%;
+        margin-left:22%;
+
+    }
+    
+    .main-2-p {
+        color:#7E76F9;
+        font-size:20px;
+        font-family: 'Aclonica', sans-serif;
+    }
+
+    .main-2-h2 {
+        font-size:50px;
+        font-weight: bold;
+        color:#42495B;
+        margin-top:30px;
+        font-family: 'Bowlby One SC', cursive;
+    }
+
+    .main-2-p1 {
+        margin-top:50px;
+        font-family: 'Palanquin', sans-serif;
+        font-size:16px;
+        color:#7A839E;
+    }
+    .main-2-button {
+        margin-top:50px;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,52,163,1) 0%, rgba(0,212,255,1) 100%);
+        width:216px;
+           height:49px;
+           color:$white;
+           border-radius:25px;
+           outline:none;
+           font-size:16px;
+           font-family: 'Quicksand', sans-serif;
+           box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.23);
+           border:none;
+           font-weight: bold;
+           &:hover {
+               cursor:pointer;
+           }
+    }
+}
+
+
+.main-3 {
+    margin-top:20%;
+    margin-left:10%;
+    background-image: url("/svgs/back.svg"),
+
+    
+}
+
+.offers-div {
+    margin-top:5%;
+    display:flex;
+    justify-content: space-around;
+    
+    
+}
+
+.offers-div1 {
+    margin-top:5%;
+    display:flex;
+   
+    justify-content: space-around;
+    
+}
+
+
+.offers {
+    width:19.1063%;
+    height:410.16px;
+    background-color:#FFFFFF;
+    border-radius:25px;
+    padding:1px;
+    box-shadow: -1px 1px 17px 0px rgba(0,0,0,0.75);
+     overflow:auto;
+
+}
+
+.offers-content {
+    margin-top:8%;
+}
+
+
+.offers-button {
+   
+        margin-top:11%;
+        background-color:#0000CD;
+        width:93.49px;
+           height:29.73px;
+           color:$white;
+           border-radius:25px;
+           outline:none;
+           font-size:16px;
+           font-family: 'Quicksand', sans-serif;
+           border:none;
+           font-weight: bold;
+           
+}
+
+
+
+.offers-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+}
+
+.dif-offers-h2 {
+    margin-left:5%;
+    margin-top:10%;
+    color:#42495B;
+    font-size:22px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+
+}
+
+.offers-p {
+    margin-left:5%;
+    margin-top:8%;
+    font-size:15px;
+    color:#42495B;
+    font-weight:bold;
+    margin-right:6%;
+    font-family: 'Cinzel Decorative', cursive;
+    line-height: 22px ;
+}
+
+.offer-h2 {
+    font-size:50px;
+    color:#42495B;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.kidekai {
+    position: absolute;
+    top:2100px;
+}
